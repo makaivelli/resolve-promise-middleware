@@ -4,7 +4,11 @@
   "description": "Middleware to return the value of the resolved promise when using redux-promise-middleware",
   "main": "build/index.js",
   "scripts": {
+    "build": "babel src -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": ["env"]
   },
   "repository": {
     "type": "git",
