@@ -1,0 +1,24 @@
+{
+  "name": "return-redux-promise-middleware-value",
+  "version": "1.0.0",
+  "description": "Middleware to return the value of the resolved promise when using redux-promise-middleware",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makaivelli/return-redux-promise-middleware-value.git"
+  },
+  "keywords": [
+    "middleware",
+    "redux",
+    "promise"
+  ],
+  "author": "Adam Makai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makaivelli/return-redux-promise-middleware-value/issues"
+  },
+  "homepage": "https://github.com/makaivelli/return-redux-promise-middleware-value#readme"
+}
