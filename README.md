@@ -1,8 +1,23 @@
 # Return Promise Middleware
 
+`return-promise-middleware` combined with `redux-promise-middleware` allows to use the resolved value of an async payload without accessing the store.
+
 ## Install
 ```sh
 npm i --save github:makaivelli/return-redux-promise-middleware-value
+```
+
+### Setup
+Apply it before `promiseMiddleware`
+
+```js
+import promiseMiddleware from 'redux-promise-middleware';
+import { resolvePromiseMiddleware } from "return-redux-promise-middleware-value";
+
+composeStoreWithMiddleware = applyMiddleware(
+    resolvePromiseMiddleware
+    promiseMiddleware(),
+)(createStore)
 ```
 
 ## Usage
