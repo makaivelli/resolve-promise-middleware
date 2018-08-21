@@ -5,7 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
   },
   "babel": {
     "presets": [
