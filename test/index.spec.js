@@ -26,5 +26,12 @@ describe('resolvePromiseMiddleware', () => {
 
             return expect(store.dispatch(action)).resolves.toBe('value');
         });
+
+        test('should throw error if payload is rejected', () => {
+            const store = createStore(() => ({}), applyMiddleware(resolvePromiseMiddleware, promiseMiddleware()));
+            const action = {type: 'ASYNC_ACTION', payload: Promise.reject('reason')};
+
+            return expect(store.dispatch(action)).rejects.toBe('reason');
+        });
     });
 });
