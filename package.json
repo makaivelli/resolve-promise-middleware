@@ -1,5 +1,5 @@
 {
-  "name": "return-promise-middleware",
+  "name": "resolve-promise-middleware",
   "version": "1.0.0",
   "description": "Middleware to return the value of the resolved promise when using redux-promise-middleware",
   "main": "build/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/makaivelli/return-promise-middleware.git"
+    "url": "git+https://github.com/makaivelli/resolve-promise-middleware.git"
   },
   "keywords": [
     "middleware",
@@ -25,9 +25,9 @@
   "author": "Adam Makai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/makaivelli/return-promise-middleware/issues"
+    "url": "https://github.com/makaivelli/resolve-promise-middleware/issues"
   },
-  "homepage": "https://github.com/makaivelli/return-promise-middleware#readme",
+  "homepage": "https://github.com/makaivelli/resolve-promise-middleware#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
