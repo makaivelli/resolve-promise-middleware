@@ -4,7 +4,7 @@
 
 ## Install
 ```sh
-npm i --save github:makaivelli/resolve-promise-middleware
+$ npm install resolve-promise-middleware --save
 ```
 
 ### Setup
