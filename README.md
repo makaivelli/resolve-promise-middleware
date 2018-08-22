@@ -4,7 +4,7 @@
 
 ## Install
 ```sh
-npm i --save github:makaivelli/return-redux-promise-middleware-value
+npm i --save github:makaivelli/return-promise-middleware
 ```
 
 ### Setup
@@ -12,7 +12,7 @@ Apply it before `promiseMiddleware`
 
 ```js
 import promiseMiddleware from 'redux-promise-middleware';
-import { resolvePromiseMiddleware } from "return-redux-promise-middleware-value";
+import { resolvePromiseMiddleware } from "return-promise-middleware";
 
 composeStoreWithMiddleware = applyMiddleware(
     resolvePromiseMiddleware
