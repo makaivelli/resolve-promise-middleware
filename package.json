@@ -1,6 +1,6 @@
 {
   "name": "resolve-promise-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware to return the value of the resolved promise when using redux-promise-middleware",
   "main": "build/index.js",
   "scripts": {
