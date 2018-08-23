@@ -1,1 +1,9 @@
+# development
 src
+test
+
+# npm
+.npmignore
+
+# IDE
+.idea/
